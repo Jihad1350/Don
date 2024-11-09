@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', '16688222'))
-API_HASH = environ.get('API_HASH', 'e97fbc548d9fbdbb45c3e51eaed15cc2')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7420443112:AAEGqJTWWzwm6xc_cjQjSihBJcYow--bnX4")
+API_ID = int(environ.get('API_ID', '24935727'))
+API_HASH = environ.get('API_HASH', '3fd33336629324ecd664e9b6894f0909)
+BOT_TOKEN = environ.get('BOT_TOKEN', "7637293116:AAHLBX2hu0aSiwEUNd_wMz20VPc6nkkPWE4")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -30,9 +30,9 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002286266637'))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7348205141').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002390903950 -1002148375787').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002334577561'))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7348205141 1087968824').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1798604396').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
@@ -51,8 +51,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB info
-SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://sujay0000:sujay0000@cluster0.8vnev.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sujay5372222222:sujay5372222222@cluster0000007.fdufm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0000007")
+SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://sujay53722838:sujay53722838@cluster0283773.3ui07.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0283773")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sujay53722838:sujay53722838@cluster0283773.3ui07.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0283773")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
