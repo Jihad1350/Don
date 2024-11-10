@@ -51,10 +51,10 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jihadshaikh13:jihadshaikh13@cluster0.mr6bd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "jihadshaikh13")
+SECONDDB_URI = environ.get('DATABASE_URI', "mongodb+srv://VJBOTHIIFYI:VJBOTHIIFYI@cluster0764776.t5xfp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0764776")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://VJBOTHIIFYI:VJBOTHIIFYI@cluster0764776.t5xfp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0764776")
+DATABASE_NAME = environ.get('DATABASE_NAME', "VJBOTHIIFYI")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
 
